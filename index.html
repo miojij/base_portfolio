@@ -46,16 +46,16 @@
 <section>
     <h3>Conhecimentos</h3>
         <div class="skill">
-  <li><span>HTML                       10%</span>
+  <li><span>HTML                       15%</span>
   <div class="progress-bar">
-    <div class="progress" style="width: 10%"></div>
+    <div class="progress" style="width: 15%"></div>
   </div>
 </div></li>
 
         <div class="skill">
-  <li><span>CSS                        10%</span>
+  <li><span>CSS                        15%</span>
   <div class="progress-bar">
-    <div class="progress" style="width: 10%"></div>
+    <div class="progress" style="width: 15%"></div>
   </div>
 </div></li>
 
@@ -76,32 +76,64 @@
 <section>
     <h3>Seção de aprendizados</h3>
     <ul>
-        <li>Atualmente estou desenvolvendo e aprendendo novas habilidades na área de Programação,</li>
-        <li>Dicas</li>
-        <li>tecnologias que estou aprendendo</li>
-        <li>**** INCLUIR FORMULÁRIO PARA ENVIO DE COMENTÁRIOS</li>
+        <li>Atualmente estou desenvolvendo e aprendendo novas habilidades na área de Programação</li>
+        <li> print("hello world") </li>
+        <li>estou aprendendo a programar em html e css, em nível básico.</li> <br>
+
+        <label for="mensagem_aprendizado">Deixe comentários:</label> <br>
+        <textarea id="mensagem_aprendizado" name="mensagem_aprendizado" rows="5" cols="100" placeholder="Digite Dicas ou comentários para que eu possa melhorar!!"></textarea> <br>
+        <button type="submit">Enviar</button> <br>
     </ul>
 </section> <br><br>
 
-<section>
+
     <h3>Galeria de fotos</h3>
-    <img src="https://i.ebayimg.com/images/g/yfwAAOSwBOBkQh-V/s-l1600.webp" width="100" height="100"/>
-</section> <br><br>
+<section class="container flex">
+	<div class="item"> <img src="https://i.ebayimg.com/images/g/yfwAAOSwBOBkQh-V/s-l1600.webp" width="120" height="120"/></div>
+	<div class="item"> <img src="https://jogabilida.de/wp-content/uploads/2015/12/tumblr_nwpsenmq0y1txf7lao1_1280.gif" width="180" height="130"/></div>
+	<div class="item"> <img src="https://www.itexperts.com.br/wp-content/uploads/2022/09/13140643/algoritmo.jpg" width="180" height="150"/></div>
+    <div class="item"> <img src="https://img.freepik.com/fotos-premium/uma-pessoa-tocando-um-piano-com-um-teclado-iluminado_875133-40.jpg" width="170" height="130"/></div>
+	<div class="item"> <img src="https://www.estudaqui.com/wp-content/uploads/2019/03/aplicativos-para-organizar-estudo-1.jpg" width="190" height="140"/></div>
+</section><br><br>
+
+
+
 
 <section>
     <h3>Redes sociais</h3>
-    <a href="https://x.com/tobyfox?lang=pt"> Link X</a> 
+    <li><a href="https://x.com/tobyfox?lang=pt"> Link X</a> </li>
 </section> <br><br>
 
 <section>
     <h3>Página de depoimentos</h3>
-    <ul>- Criar seção com **depoimento dos clientes** atendidos.</ul>
-     <ul>- Listar todos os depoimentos com nome, foto e comentário sobre seus serviços.</ul>
+    <div class="depoimentos">
+        <div class="depoimento">
+            <img src="https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia11272/1como-administra-uma-padaria-cursos-cpt.jpg" height="150" width="150" alt="Foto de Cliente"> 
+            <div class="info">
+                <h4>Padeiro Martins</h4>
+                <p>"O serviço foi excelente! Recomendo a todos."</p> 
+            </div> <hr/>
+        </div>
+        <div class="depoimento">
+            <img src="https://i1.sndcdn.com/artworks-000197206252-vfnfz0-t500x500.jpg" height="150" width="150" alt="Foto de Cliente">
+            <div class="info">
+                <h4>Wesley Safadão</h4>
+                <p>"Muito profissional e atencioso. Fiquei muito satisfeito."</p> 
+            </div> <hr/>
+        </div>
+        <div class="depoimento">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX3Dch7isHQl4dtyS8vjh2nN3yBBmB2pvFimrSDwBU643zj6To7lf3tr8JQ3Pw-lOu44w&usqp=CAU" width="200" height="150" alt="Foto de Cliente">
+            <div class="info">
+                <h4>Mike Tyson</h4>
+                <p>"Ótima experiência! Voltarei a contratar seus serviços."</p>
+            </div> 
+        </div>
+    </div>
 </section> <br><br>
 
 
 <section> 
-    <h3>Página de contatos</h3>
+    <h3>Página de contato</h3>
     <form action="/cadastrar_usuario">
         <label for="nome">Nome   : </label>
         <input id="nome" name="nome" type="text" placeholder="Digite seu nome"> <br>
@@ -112,7 +144,7 @@
         <label for="telefone">Telefone: </label>
         <input id="telefone" name="telefone" type="tel" placeholder="Digite seu telefone"> <br>
 
-        <textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem e assunto"></textarea> <br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="100" placeholder="Digite sua mensagem e assunto"></textarea> <br>
 
         <button type="submit">Enviar</button>
     </form>

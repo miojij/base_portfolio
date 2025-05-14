@@ -18,7 +18,7 @@ h3{ font-family: monospace;
 .progress-bar {
   width: 20%;
   height: 9px;
-  background-color: #e0e0e0;
+  background-color: #e23939;
   border-radius: 10px;
 }
 
@@ -26,4 +26,14 @@ h3{ font-family: monospace;
   height: 100%;
   background-color: #3498db;
   border-radius: 10px;
+}
+
+.container {
+	width: 700px;
+  height: 150px;
+	margin: 10 auto;
+	display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
 }

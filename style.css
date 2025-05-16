@@ -47,15 +47,19 @@ h3{ font-family: monospace;
 
 /* HEADER */
 .header {
+  position:sticky;
+  top: 0;
   overflow: hidden;
-  background-color: #f03f53;
+  background-color: #020101;
   padding: 20px 10px;
+  color: black
+  ;
 }
 
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: rgb(244, 242, 242);
   text-align: center;
   padding: 12px;
   text-decoration: none;
